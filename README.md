@@ -24,3 +24,30 @@ xc = nu5%%9+1
 yc = nu5%/%9+1+1
 datac = cbind(xc,yc) 
 ```
+### 2、选取样方及计算
+```R
+quadrat <- c(1,2,3,0,2,1,3,4,3)#样方值
+mean <- mean(quadrat)#平均值
+variance <-var(quadrat)#方差
+VMR<- variance/mean #VMR
+
+result=""
+
+if(VMR>1.5){
+  result = "聚集分布"
+}else if(VMR<0.5){
+  result = "均匀分布"
+}else{
+  result = "随机分布"
+}
+```
+### 3、画出图像
+```R
+plot(datac,main=result,xaxt="n",yaxt="n")
+axis(1,at=seq(1,9,1))
+axis(2,at=seq(1,9,1))
+grid(nx=3,ny=3,lwd=1,lty=2,col="blue")
+```
+## 4、结论
+根据我们计算得出`VMR=0.7631579`，由样方分析原理得知属于`随机分布`，并画出随机分布图。
+
