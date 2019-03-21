@@ -50,4 +50,4 @@ grid(nx=3,ny=3,lwd=1,lty=2,col="blue")
 ```
 ## 4、结论
 根据我们计算得出`VMR=0.7631579`，由样方分析原理得知属于`随机分布`，并画出随机分布图。
-
+![](https://github.com/cuit201608/Team9_coding/blob/master/files/%E9%9A%8F%E6%9C%BA%E5%88%86%E5%B8%83%E5%9B%BE.JPG)
