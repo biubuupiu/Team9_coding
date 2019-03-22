@@ -119,7 +119,7 @@ grid(nx=3,ny=3,lwd=1,lty=2,col="blue")
             ```
             # 绘图 spplot(grid_spdf)
             ```
-          - 最终结果：!['核密度图'](https://github.com/cuit201608/Team9_coding/blob/master/Team9_coding/files/KDE_result.jpg)
+          - 最终结果：!['核密度图'](https://github.com/cuit201608/Team9_coding/blob/master/files/KDE_result.jpg)
    - **结果分析：**
        - 从图中可以看出：大部分成绩好的学生喜欢坐在教室的中前方，小部分喜欢坐在教室的后排
    - **声明**
