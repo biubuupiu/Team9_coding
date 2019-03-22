@@ -60,7 +60,7 @@ grid(nx=3,ny=3,lwd=1,lty=2,col="blue")
    - **核密度分析原理**
       - 通过计算以这个点为中心，一定距离为半径（一般取**带宽**）的范围内事件点的数量，作为该点的密度
       - 具体的计算公式如图：
-      ![KDE_theory](/Team9_coding/files/KDE_theory.jpg)
+      !['KDE_theory'](https://github.com/cuit201608/Team9_coding/blob/master/files/KDE_theory.jpg)
    - **实验过程**
       - 数据预处理
          - 这一步的目的是：提取出`GPA > 3.0`的学生并去除4月4日那天没有座位号的记录
@@ -119,7 +119,7 @@ grid(nx=3,ny=3,lwd=1,lty=2,col="blue")
             ```
             # 绘图 spplot(grid_spdf)
             ```
-          - 最终结果：!['核密度图'](/Team9_coding/files/KDE_result.jpg)
+          - 最终结果：!['核密度图'](https://github.com/cuit201608/Team9_coding/blob/master/Team9_coding/files/KDE_result.jpg)
    - **结果分析：**
        - 从图中可以看出：大部分成绩好的学生喜欢坐在教室的中前方，小部分喜欢坐在教室的后排
    - **声明**
